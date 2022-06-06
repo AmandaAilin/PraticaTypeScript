@@ -7,7 +7,7 @@
 <p align="center">
 	<a href="#Descrição do Projeto">Descrição do Projeto</a> •
 	<a href="#tecnologias-utilizadas">Tecnologias-utilizadas</a> •
- <a href="#funcionalidades">funcionalidades</a> •
+ <a href="#Sobre o tsconfig.json ">Sobre o tsconfig.json </a> •
  <a href="#Documentação">Documentação</a> •
 </p>
 
