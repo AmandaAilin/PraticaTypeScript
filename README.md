@@ -59,6 +59,6 @@ O objetivo desse repositório é mostrar exemplos e desafios de typescript feito
 </br>
 
 ## Documentação 
-Documentação oficial sobre o tsconfig.json:  (https://www.typescriptlang.org/tsconfig)
+Documentação oficial sobre o tsconfig.json:  (https://www.typescriptlang.org/tsconfig) </br>
 Typescript: (https://www.typescriptlang.org/)
 
