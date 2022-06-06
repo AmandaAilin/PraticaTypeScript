@@ -1,25 +1,20 @@
 "use strict";
-//Se pode poner un type a uma função
-/*function somarValoresNumericos(numero1: number, numero2: number): number {
-    return numero1 + numero2;
+let anyEstaDeVolta;
+anyEstaDeVolta = 3;
+anyEstaDeVolta = 'teste';
+anyEstaDeVolta = 5;
+let stringTest = 'verificar';
+stringTest = anyEstaDeVolta;
+let unknownValor;
+unknownValor = 3;
+unknownValor = 'opa';
+unknownValor = true;
+unknownValor = 'vai sim';
+let stringTest2 = 'agora vai';
+if (typeof unknownValor === 'string') {
+    stringTest2 = unknownValor;
 }
-
-console.log(somarValoresNumericos(1, 3));
-*/
-//Usando void em funções
-function printaValoresNumericos(numero1, numero2) {
-    console.log(numero1 + numero2);
+function jogaErro(erro, codigo) {
+    throw { error: erro, code: codigo };
 }
-//incluindo callback em funções
-function somarValoresNumericosETratar(numero1, numero2, callback) {
-    let resultado = numero1 + numero2;
-    return callback(resultado);
-}
-function aoQuadrado(numero) {
-    return numero * numero;
-}
-function dividirPorEleMesmo(numero) {
-    return numero / numero;
-}
-console.log(somarValoresNumericosETratar(1, 3, aoQuadrado));
-console.log(somarValoresNumericosETratar(1, 3, dividirPorEleMesmo));
+jogaErro('deu erro', 500);
